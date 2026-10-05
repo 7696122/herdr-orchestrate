@@ -53,7 +53,7 @@ function isThinkingLevel(value) {
 const MODEL_ROUTES = {
 	default: {
 		provider: "openai-codex",
-		model: "gpt-5.6-sol",
+		model: "gpt-6.1-sol",
 		thinking: "medium",
 		writesSource: true,
 		decides: true
@@ -413,7 +413,7 @@ async function doctor(cwd) {
 			"--provider",
 			"openai-codex",
 			"--model",
-			"gpt-5.6-sol",
+			"gpt-6.1-sol",
 			"--thinking",
 			"medium",
 			"--no-tools",

@@ -24,7 +24,7 @@ export function isThinkingLevel(value: unknown): value is ThinkingLevel {
 export const MODEL_ROUTES: Record<Route, ModelRoute> = {
   default: {
     provider: "openai-codex",
-    model: "gpt-5.6-sol",
+    model: "gpt-6.1-sol",
     thinking: "medium",
     writesSource: true,
     decides: true,

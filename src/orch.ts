@@ -272,7 +272,7 @@ export async function doctor(cwd: string): Promise<string[]> {
         "--provider",
         "openai-codex",
         "--model",
-        "gpt-5.6-sol",
+        "gpt-6.1-sol",
         "--thinking",
         "medium",
         "--no-tools",
