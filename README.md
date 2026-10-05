@@ -9,7 +9,7 @@ Pi-native orchestration for visible [Herdr](https://herdr.dev) worker sessions.
 | Route     | Provider/model                  | Thinking | Contract                                            |
 | --------- | ------------------------------- | -------- | --------------------------------------------------- |
 | `default` | `openai-codex/gpt-5.6-sol`      | `medium` | Planning, implementation, review, and proof         |
-| `explore` | `opencode-go/deepseek-v4-flash` | `high`   | Input-heavy exploration only; no edits or decisions |
+| `explore` | `zai/glm-5.3-flash` | `high`   | Input-heavy exploration only; no edits or decisions |
 
 The current user-facing Pi session is the god agent. The CLI never spawns a god worker.
 

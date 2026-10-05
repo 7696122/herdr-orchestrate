@@ -30,8 +30,8 @@ export const MODEL_ROUTES: Record<Route, ModelRoute> = {
     decides: true,
   },
   explore: {
-    provider: "opencode-go",
-    model: "deepseek-v4-flash",
+    provider: "zai",
+    model: "glm-5.3-flash",
     thinking: "high",
     writesSource: false,
     decides: false,

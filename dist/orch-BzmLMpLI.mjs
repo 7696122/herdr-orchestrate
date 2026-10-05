@@ -59,8 +59,8 @@ const MODEL_ROUTES = {
 		decides: true
 	},
 	explore: {
-		provider: "opencode-go",
-		model: "deepseek-v4-flash",
+		provider: "zai",
+		model: "glm-5.3-flash",
 		thinking: "high",
 		writesSource: false,
 		decides: false
@@ -423,9 +423,9 @@ async function doctor(cwd) {
 		]],
 		["pi", [
 			"--provider",
-			"opencode-go",
+			"zai",
 			"--model",
-			"deepseek-v4-flash",
+			"glm-5.3-flash",
 			"--thinking",
 			"high",
 			"--no-tools",

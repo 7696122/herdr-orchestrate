@@ -285,9 +285,9 @@ export async function doctor(cwd: string): Promise<string[]> {
       "pi",
       [
         "--provider",
-        "opencode-go",
+        "zai",
         "--model",
-        "deepseek-v4-flash",
+        "glm-5.3-flash",
         "--thinking",
         "high",
         "--no-tools",
