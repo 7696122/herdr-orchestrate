@@ -1,5 +1,5 @@
 ---
-name: orch-implementation-worker
+name: 76-orch-implementation-worker
 description: Execute assigned delivery work when a prompt identifies this Pi session as an orch implementation, fix, review, or proof worker. Handles surgical changes, commits, read-only review, repository checks, and live proof in isolated worktrees.
 license: MIT
 compatibility: Requires Pi inside a herdr-orchestrate worker worktree.

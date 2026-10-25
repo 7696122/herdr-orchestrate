@@ -1,5 +1,5 @@
 ---
-name: orch-research-plan-worker
+name: 76-orch-research-plan-worker
 description: Research and plan assigned work when a prompt identifies this Pi session as an orch exploration or research/plan worker. Handles evidence gathering, repository mapping, options, risks, and implementation briefs; exploration workers never edit or decide.
 license: MIT
 compatibility: Requires Pi inside a herdr-orchestrate worker pane.

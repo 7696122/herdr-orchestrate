@@ -1,5 +1,5 @@
 ---
-name: orchestrate
+name: 76-orchestrate
 description: Run a user-directed task through visible Pi workers with herdr-orchestrate.
 disable-model-invocation: true
 license: MIT

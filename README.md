@@ -2,7 +2,7 @@
 
 Pi-native orchestration for visible [Herdr](https://herdr.dev) worker sessions.
 
-`herdr-orchestrate` provides a Herdr run board, durable prompts/reports/state, isolated Git worktrees, explicit Pi model routing, background waiting, and safe cleanup. The user-facing `orchestrate` skill keeps the current Pi session strategic while delegated workers remain visible and auditable in a dedicated Herdr workspace.
+`herdr-orchestrate` provides a Herdr run board, durable prompts/reports/state, isolated Git worktrees, explicit Pi model routing, background waiting, and safe cleanup. The user-facing `76-orchestrate` skill keeps the current Pi session strategic while delegated workers remain visible and auditable in a dedicated Herdr workspace.
 
 ## Model routes
 
@@ -36,7 +36,7 @@ pi install /absolute/path/to/herdr-orchestrate
 Restart Pi after installing so it discovers the packaged skills. Invoke the user-only orchestrator with:
 
 ```text
-/skill:orchestrate
+/skill:76-orchestrate
 ```
 
 The skill uses the v2 `orch` command from PATH. If PATH resolution is unavailable, use the direct-node fallback shown below.
